@@ -227,7 +227,7 @@ img {
 }
 
 .project-title {
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 2rem 0.5rem;
 }
 
@@ -335,13 +335,19 @@ footer i {
   height: 200px;
 }
 
-#electronscreenshot {
+.screenshot {
   margin-top: 10px;
   display: inline;
   width: 800px;
 }
 
-#projects {
-  /* display: inline-block;
+.aboutmelists {
+  margin-left: 200px;
+  list-style: square;
+  text-align: left;
+}
 
+.aboutmesublists{
+  margin-left: 40px;
+  list-style: circle;
 }
