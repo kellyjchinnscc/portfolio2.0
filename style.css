@@ -333,14 +333,15 @@ footer i {
 }
 
 #portrait {
-  width: 200px;
-  height: 200px;
+  width: 325px;
+  height: 335px;
+  border-radius: 50%;
 }
 
 .screenshot {
   margin-top: 10px;
   display: inline;
-  width: 800px;
+  width: 500px;
 }
 
 .aboutmelists {
@@ -352,5 +353,9 @@ footer i {
 .aboutmesublists{
   margin-left: 40px;
   list-style: circle;
+}
+
+#link-to-proj *:hover{
+  text-decoration: underline;
 }
 
