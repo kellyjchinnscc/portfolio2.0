@@ -1,11 +1,12 @@
 /* Custom properties/variables  */
 :root {
-  --main-white: #f0f0f0;
-  --main-red: #be3144;
+  /* --main-white: #f0f0f0; */
+  --main-white: #EEECE9  ;
+  --main-red: #6FCA88;
   /* --main-blue: #45567d; */
-  --main-blue: #5a77b9;
+  --main-blue: #A98D2C;
   /* --main-gray: #303841; */
-  --main-gray: #89929c;
+  --main-gray: #254972;
 }
 
 /* Base reset */
