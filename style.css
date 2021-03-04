@@ -220,6 +220,10 @@ img {
   box-shadow: 5px 5px 20px #EEECE9;
 }
 
+.project:hover .tooltip {
+  visibility: visible;
+}
+
 .code {
   color: var(--main-gray);
   transition: color 0.1s ease-out;
@@ -367,5 +371,15 @@ footer i {
   text-decoration: underline;
 }
 
+.tooltip {
+  visibility: hidden;
+  background-color: var(--main-white);
+  color: #000;
+  border-radius: 6px;
+  position: relative;
+  padding: 10px 10px;
+  border-color: #000;
+  border-style: ridge;
+}
 
 
